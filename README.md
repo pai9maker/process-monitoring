@@ -11,19 +11,19 @@
 - Логирование недоступности сервера
 
 # Структура проекта
+<pre>
 process-monitoring/
-│
 ├── src/
-│   ├── monitoring.sh
-│   ├── monitoring.service
-│   ├── monitoring.timer
-│   ├── install_monitoring.sh
-│   └── uninstall_monitoring.sh
-│
+│   ├── monitoring.sh           # Основной скрипт мониторинга
+│   ├── monitoring.service      # Systemd service unit
+│   ├── monitoring.timer        # Systemd timer unit
+│   ├── install_monitoring.sh   # Скрипт установки
+│   └── uninstall_monitoring.sh # Скрипт удаления
 ├── examples/
-│   └── test-process-example.sh
-│
+│   └── test-process-example.sh # Пример тестового процесса
 └── README.md
+</pre>
+
 
 # Быстрая установка
 
