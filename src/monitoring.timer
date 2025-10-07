@@ -1,0 +1,12 @@
+[Unit]
+Description=Run monitoring script every minute
+Requires=monitoring.service
+
+[Timer]
+OnBootSec=1min
+OnCalendar=*:0/1
+Unit=monitoring.service
+Persistent=true
+
+[Install]
+WantedBy=timers.target
