@@ -12,13 +12,13 @@
 
 # Структура проекта
 process-monitoring/ 
-├── src/ 
+├── src/
 │ ├── monitoring.sh # Основной скрипт мониторинга
-│ ├── monitoring.service # Systemd service unit
-│ ├── monitoring.timer # Systemd timer unit
-│ ├── install_monitoring.sh # Скрипт установки
-│ └── uninstall_monitoring.sh # Скрипт удаления
-├── examples/ 
+│ ├──monitoring.service # Systemd service unit
+│ ├──monitoring.timer # Systemd timer unit
+│ ├──install_monitoring.sh # Скрипт установки
+│ └──uninstall_monitoring.sh # Скрипт удаления
+├── examples/
 │ └── test-process-example.sh # Пример тестового процесса
 └── README.md
 
